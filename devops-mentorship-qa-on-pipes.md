@@ -21,13 +21,9 @@
 - O que é Garantia de Qualidade?
 > Brevemente, é um caminho de prevenir erros em produtos manufaturados. No escopo do desenvolvimento de software, uma linha de código ou uma variável toma o papel de “produto manufaturado”, pois são manualmente concebidos, na maior parte dos casos, por um desenvolvedor ou um arquiteto de software, e entregues para o uso de algum público ou cliente específico.	
 
-> Entre outras práticas, para "garantir" a qualidade do software entregue, surgem ferramentas de inspeção de código como o Sonar, que o faz por diversos meios, principalmente através da busca de codesmells (ou, num português bem claro, "porquices") num código. Em alguns cenários, o Sonar atua literalmente como um "blocker" na subida de um código. Se o software que está prestes a ser entregue não passa pela inspeção e suas respectivas métricas, o deploy pode mesmo ser cancelado, a fim de evitar bugs, falhas de seguranças e comportamentos indesejados.
-----
-“É responsável por verificar a existência de bugs, a cobertura de testes, code smells e vulnerabilidades existentes em um código.”
-----
-“Na aula de hoje, utilizaremos o SonarCloud como a nossa ferramenta de inspeção de código, a fim de alcançar uma maior garantia de qualidade em nossas Pipelines.
-	----
-“Antes de entrar no assunto das Pipelines em si, vamos fazer uma breve tangente que, de um modo geral, estabelece uma conexão muito formidável entre o mundo DevOps e o mundo do desenvolvimento de software puro: o TDD, ou Test-Driven Development”
+> Entre outras práticas, para "garantir" a qualidade do software entregue, surgem ferramentas de inspeção de código como o Sonar, que o faz por diversos meios, principalmente através da busca de codesmells (ou, num português bem claro, "porquices") num código. Em alguns cenários, o Sonar atua literalmente como um "blocker" na subida de um código. Se o software que está prestes a ser entregue não passa pela inspeção e suas respectivas métricas, o deploy pode mesmo ser cancelado, a fim de evitar bugs, vulnerabilidades e comportamentos indesejados naquele produto.
+
+(...) vamos fazer uma breve tangente que, de um modo geral, estabelece uma conexão muito formidável entre o mundo DevOps e o mundo do desenvolvimento de software: o TDD, ou Test-Driven Development”
 
 
 
