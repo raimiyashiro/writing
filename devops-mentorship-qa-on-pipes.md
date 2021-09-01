@@ -1,6 +1,6 @@
 # Quality Assurance on Pipelines
 
-## introdução
+## Introdução
 
 > Olá, sejam muito bem-vindos. Nesta pequena demonstração, falaremos um pouco sobre Garantia de Qualidade em Pipelines. Para dar contexto ao assunto, vamos começar com alguns conceitos básicos.
 
@@ -10,9 +10,9 @@
 > O nome Pipeline, que significa literalmente "cano" ou "tubo", é frequentemente substituído por Esteira DevOps ou, mais assertivamente, Esteira de CI & CD.
 > Estes dois termos significam, respectivamente, "Integração Contínua" e "Entrega Contínua" ou mesmo "Implantação Contínua". Existe uma diferença bem clara entre uma esteira de CD e uma de CI, e a própria nomenclatura nos permite raciocinar da seguinte maneira:
 > Uma esteira de Integração Contínua é responsável por unir todas as dependências desde o commit até o build. Em outras palavras, uma esteira de CI, geralmente disparada por um "commit" ou um "push", o qual chamamos de Trigger, é responsável pelas etapas iniciais da Pipeline: ler o código do repositório > instalar as dependências necessárias > integrar serviços adicionais, como veremos mais a frente, e finalmente, rodar o build do software recebido.
-> Apesar de todas essas etapas, ainda falta uma coisa. Como eu disse anteriormente, uma Pipeline faz a ponte entre o código e o ambiente ao qual o mesmo está destinado. Isso significa que uma Pipeline é responsável inclusive pela entrega desse novo código aos seus usuários finais. A partir desse momento, não estamos mais falando de integração, mas sim de entrega e implantação. Isso define bem a responsabilidade de uma Esteira de CD, que consiste basicamente em entregar um software pronto, já compilado e tudo mais, ao seu ambiente público, por exemplo www.minha-webapp.com.br
+> Apesar de todas essas etapas, ainda falta uma coisa. Como eu disse anteriormente, uma Pipeline faz a ponte entre o código e o ambiente ao qual o mesmo está destinado. Isso significa que uma Pipeline é responsável inclusive pela entrega desse novo código aos seus usuários finais. A partir desse momento, não estamos mais falando de integração, mas sim de entrega e implantação. Isso define bem a responsabilidade de uma Esteira de CD, que consiste basicamente em entregar um software pronto, já compilado e tudo mais, ao seu ambiente público, por exemplo: www.minha-webapp.com.br
 
 - Final da Introdução
-> E se a explicação teórica parece um tanto nebulosa, não se preocupa! Nós veremos na prática o funcionamento de uma Pipeline em alguns momentos.
+> E se a explicação teórica parece um tanto nebulosa, não se preocupa! Nós veremos na prática o funcionamento de uma Pipeline em alguns momentos. O importante é ter ao menos uma certa noção de que os processos de CI e CD constituem esse "tubo", a Pipeline, que leva o código de um software até o servidor onde ele ficará hospedado.
 
 
