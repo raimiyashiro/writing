@@ -2,10 +2,13 @@
 
 ## Introdução
 
-> Olá, sejam muito bem-vindos. Nesta pequena demonstração, falaremos um pouco sobre Garantia de Qualidade em Pipelines.
+> Olá, sejam **todos** muito bem-vindos. Nesta pequena demonstração, falaremos um pouco sobre Garantia de Qualidade em Pipelines.
 
 - O que são Pipelines?
-> No contexto DevOps, pipelines são ferramentas ou pacotes de ferramentas que agilizam o processo de integração e entrega contínua de software. Uma Pipeline faz o meio-campo entre o código em si, normalmente armazenado em um repositório Git, e a sua parada final, como um ambiente de produção ou desenvolvimento hospedado na Cloud.
+> No contexto DevOps, pipelines são ferramentas ou **pacotes de ferramentas** (...) => que agilizam o processo de integração e entrega contínua de software. Uma Pipeline faz o meio-campo entre o código **em si**, normalmente armazenado em algum repositório Git, e a sua parada final, como um ambiente de produção ou desenvolvimento hospedado na Cloud.
+
+* IDEIA: explicar DevOps entre dev e infra, code-dev ; pipe-devops ; environment-infra
+
 - CI & CD?
 > O nome Pipeline, que significa literalmente "cano" ou "tubo", é frequentemente substituído por Esteira DevOps ou, mais assertivamente, Esteira de CI & CD.
 > Estes dois termos significam, respectivamente, "Integração Contínua" e "Entrega Contínua" ou mesmo "Implantação Contínua". Existe uma diferença bem clara entre uma esteira de CD e uma de CI, e a própria nomenclatura nos permite raciocinar da seguinte maneira:
